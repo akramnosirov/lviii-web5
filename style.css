@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.imgbg1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+header {
+    width: 1100px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header .h1 {
+    font-size: 1.9rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header .ul1 {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    margin-left: 12rem;
+}
+
+header .a1 {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: gray;
+    transition: all 0.3s ease;
+}
+
+header .a1:hover {
+    color: #fba70b;
+}
+
+
+.sec1 .div1 {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 14rem;
+}
+
+.sec1 .h1 {
+    font-weight: bolder;
+    font-size: 3.4rem;
+}
+
+.sec1 .p1 {
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: normal;
+    max-width: 535px;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+.sec1 .a1 {
+    text-decoration: none;
+    color: white;
+    background-color: #fba70b;
+    display: flex;
+    padding: 1rem 2rem;
+    width: fit-content;
+    border-radius: 50px;
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+}
+
+.sec1 .a1:hover {
+    background-color: #f1566a;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+
+
+
+.sec2 {
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30rem;
+    gap: 2rem;
+
+}
+
+.sec2 .div1 {
+    flex: 1;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    box-shadow: 0 0 10px #0000002f;
+    border-radius: 8px;
+}
+
+.sec2 .h1 {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    color: #fdefe9;
+    font-size: 6rem;
+}
+
+.sec2 .h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.sec2 .p1 {
+    width: 80%;
+    text-align: center;
+    color: grey;
+    line-height: 1.5;
+}
+
+.sec2 .a1 {
+    text-decoration: none;
+    color: white;
+    background-color: #f4813f;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}
+
+.sec2 .a1:hover {
+    background-color: #f1566a;
+}
+
+/* --------------------------------------------------------------------- */
+
+
+
+.sec3Div {
+    height: 1100px;
+    position: relative;
+    top: -80px;
+    z-index: -1;
+    background-image: url("images/left-bg-decor.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec3 {
+    display: flex;
+    width: 1100px;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+.sec3 .div2 {
+    display: flex;
+    gap: 2rem;
+    align-items: start;
+
+}
+
+.sec3 .div3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sec3 .h1 {
+    font-size: 1.5rem;
+}
+
+.sec3 .p1 {
+    color: gray;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.sec3 .div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+.sec4 {
+    width: 100%;
+    position: relative;
+    top: -11rem;
+}
+
+.sec4 .h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.sec4 .p1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.sec4 .div1 {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.sec4 .div2 {
+    flex: 1;
+    background: linear-gradient(135deg, #f47b45, #f1566a);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: relative;
+
+}
+
+.sec4 .img1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    z-index: 1;
+    left: -40px;
+}
+
+.sec4 .p2 {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.sec4 .h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.sec4 .p1 {
+    max-width: 700px;
+    color: grey;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+.sec4 .img2 {
+    position: absolute;
+    right: 0;
+    top: -200px;
+}
+
+.sec4 .div1 {
+    margin-top: 8rem;
+}
+
+.sec4 .h1 {
+    font-size: 1.5rem;
+
+}
+
+.sec4 .p3 {
+    max-width: 400px;
+    margin-top: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.sec4 .p4 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* -------------------------------------------------------------- */
+
+
+
+
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .img1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+footer .div0 {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 15rem;
+    display: flex;
+    gap: 2rem;
+}
+
+footer .div1 {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0000002c;
+}
+
+footer .div2 {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .div3 {
+    display: flex;
+    gap: 2rem;
+}
+
+footer .inp1,
+footer .inp2 {
+    flex: 1;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+footer .txtarea1 {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex: 1;
+    resize: none;
+    min-height: 120px;
+    outline: none;
+}
+
+footer .a1 {
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f4813f;
+    font-size: 0.9rem;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+}
+
+footer .h1 {
+    color: white;
+    margin-top: 3rem;
+    font-size: 3rem;
+} 
+
+
+footer .p1 {
+    margin-top: 2rem;
+    color: white;
+    line-height: 1.5;
+}
+
+footer .p2 {
+    color: white;
+    margin-top: 2rem;
+    line-height: 1.5;
+
+}
+
+footer .div5 {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+footer .i1 {
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+footer .i1:hover {
+    font-size: 1.5rem;
+}
+
+footer .hr1 {
+    margin: 0 auto;
+    width: 1100px;
+    height: 1px;
+    background-color: #bbb;
+    border: none;
+    margin-top: 8rem;
+}
+
+
+footer .p3 {
+    color: white;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
